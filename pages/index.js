@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Header from './Header.js'
 import Card from './Card.js'
 import Toast from './Toast.js'
-import {primaryArray, secondaryArray } from './data.js'
+import {primaryArray, secondaryArray } from '../data/data.js'
 
 
 export default function Home() {
