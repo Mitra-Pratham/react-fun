@@ -469,4 +469,207 @@ const secondaryArray = [
     },
 ]
 
-export {primaryArray, secondaryArray};
+const tertiaryArray = [
+    {
+        name: 'Info Blue',
+        colors: [
+            {
+                name: 'Info Blue 100',
+                hex: '#F2FAFD',
+                rgb: 'RGB(242, 250, 253)'
+            },
+            {
+                name: 'Info Blue 200',
+                hex: '#BFE5F4',
+                rgb: 'RGB(191, 229, 244)'
+            },
+            {
+                name: 'Info Blue 300',
+                hex: '#80CCE8',
+                rgb: 'RGB(128, 204, 232)'
+            },
+            {
+                name: 'Info Blue 400',
+                hex: '#40B3DE',
+                rgb: 'RGB(64, 179, 222)'
+            },
+            {
+                name: 'Info Blue 500',
+                hex: '#0099D2',
+                rgb: 'RGB(0, 153, 210)'
+            },
+            {
+                name: 'Info Blue 600',
+                hex: '#00739E',
+                rgb: 'RGB(0, 115, 158)'
+            },
+            {
+                name: 'Info Blue 700',
+                hex: '#004C68',
+                rgb: 'RGB(0, 76, 104)'
+            },
+            {
+                name: 'Info Blue 800',
+                hex: '#002635',
+                rgb: 'RGB(0, 38, 53)'
+            },
+            {
+                name: 'Info Blue 900',
+                hex: '#000F15',
+                rgb: 'RGB(0, 15, 21)'
+            }
+        ],
+    },
+    {
+        name: 'Green',
+        colors: [
+            {
+                name: 'Green 100',
+                hex: '#F2F8F6',
+                rgb: 'RGB(242, 248, 246)'
+            },
+            {
+                name: 'Green 200',
+                hex: '#BFDDD3',
+                rgb: 'RGB(191, 221, 211)'
+            },
+            {
+                name: 'Green 300',
+                hex: '#80BBA7',
+                rgb: 'RGB(128, 187, 167)'
+            },
+            {
+                name: 'Green 400',
+                hex: '#40997B',
+                rgb: 'RGB(64, 153, 123)'
+            },
+            {
+                name: 'Green 500',
+                hex: '#00774E',
+                rgb: 'RGB(0, 119, 78)'
+            },
+            {
+                name: 'Green 600',
+                hex: '#00593B',
+                rgb: 'RGB(0, 89, 59)'
+            },
+            {
+                name: 'Green 700',
+                hex: '#003B27',
+                rgb: 'RGB(0, 59, 39)'
+            },
+            {
+                name: 'Green 800',
+                hex: '#001E14',
+                rgb: 'RGB(0, 30, 20)'
+            },
+            {
+                name: 'Green 900',
+                hex: '#000C08',
+                rgb: 'RGB(0, 12, 8)'
+            }
+        ],
+    },
+    {
+        name: 'Red',
+        colors: [
+            {
+                name: 'Red 100',
+                hex: '#FCF4F4',
+                rgb: 'RGB(252, 244, 244)'
+            },
+            {
+                name: 'Red 200',
+                hex: '#F2C7C9',
+                rgb: 'RGB(242, 199, 201)'
+            },
+            {
+                name: 'Red 300',
+                hex: '#E69093',
+                rgb: 'RGB(230, 144, 147)'
+            },
+            {
+                name: 'Red 400',
+                hex: '#DA585D',
+                rgb: 'RGB(218, 88, 93)'
+            },
+            {
+                name: 'Red 500',
+                hex: '#CD2026',
+                rgb: 'RGB(205, 32, 38)'
+            },
+            {
+                name: 'Red 600',
+                hex: '#9A181D',
+                rgb: 'RGB(154, 24, 29)'
+            },
+            {
+                name: 'Red 700',
+                hex: '#661013',
+                rgb: 'RGB(102, 16, 19)'
+            },
+            {
+                name: 'Red 800',
+                hex: '#33080A',
+                rgb: 'RGB(51, 8, 10)'
+            },
+            {
+                name: 'Red 900',
+                hex: '#140304',
+                rgb: 'RGB(20, 3, 4)'
+            }
+        ],
+    },
+    {
+        name: 'Yellow',
+        colors: [
+            {
+                name: 'Yellow 100',
+                hex: '#FFFAF4',
+                rgb: 'RGB(255, 250, 244)'
+            },
+            {
+                name: 'Yellow 200',
+                hex: '#FFE5C7',
+                rgb: 'RGB(255, 229, 199)'
+            },
+            {
+                name: 'Yellow 300',
+                hex: '#FFCC8F',
+                rgb: 'RGB(255, 204, 143)'
+            },
+            {
+                name: 'Yellow 400',
+                hex: '#FFB357',
+                rgb: 'RGB(255, 179, 87)'
+            },
+            {
+                name: 'Yellow 500',
+                hex: '#FF991F',
+                rgb: 'RGB(255, 153, 31)'
+            },
+            {
+                name: 'Yellow 600',
+                hex: '#BF7317',
+                rgb: 'RGB(191, 115, 23)'
+            },
+            {
+                name: 'Yellow 700',
+                hex: '#7F4C0F',
+                rgb: 'RGB(127, 76, 15)'
+            },
+            {
+                name: 'Yellow 800',
+                hex: '#402608',
+                rgb: 'RGB(64, 38, 8)'
+            },
+            {
+                name: 'Yellow 900',
+                hex: '#190F03',
+                rgb: 'RGB(25, 15, 3)'
+            }
+        ],
+    },
+]
+
+export {primaryArray, secondaryArray, tertiaryArray};

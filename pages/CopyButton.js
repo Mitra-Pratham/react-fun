@@ -1,6 +1,6 @@
 export default function CopyButton(props){
     return(
-        <button className="btn btn-new btn-sm ms-3 border-0" onClick={()=>copyToClipboard(props.text)}><i class="fa-regular fa-copy"></i></button>
+        <button className="btn btn-new btn-sm ms-2 border-0 hide-btn" onClick={()=>copyToClipboard(props.text)}><i className="fa-regular fa-copy"></i></button>
     )
 }
 
