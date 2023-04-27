@@ -20,7 +20,7 @@ export default function Sidepanel(props) {
                 <Card colorName={selectedItem.name} hex={selectedItem.hex} rgb={selectedItem.rgb} />
                 <Header type="h6" name="This color's contrast pairs well with the below" />
                 <Header type='h3 mt-2' name="Primary Palette" />
-                <div className='bg-grey w-100 p-3 rounded'>
+                <div className='bg-secondary-subtle w-100 p-3 rounded'>
                     <div className='row row-cols-1 g-3'>
                         {primaryArray.map((item, index) => {
                             return (
@@ -40,7 +40,7 @@ export default function Sidepanel(props) {
                     </div>
                 </div>
                 <Header type='h3 mt-4' name="Secondary Palette" />
-                <div className='bg-grey w-100 p-3 rounded'>
+                <div className='bg-secondary-subtle w-100 p-3 rounded'>
                     <div className='row row-cols-1 g-3'>
                         {secondaryArray.map((item, index) => {
                             return (
@@ -60,7 +60,7 @@ export default function Sidepanel(props) {
                     </div>
                 </div>
                 <Header type='h3 mt-4' name="Semantic Palette" />
-                <div className='bg-grey w-100 p-3 rounded'>
+                <div className='bg-secondary-subtle w-100 p-3 rounded'>
                     <div className='row row-cols-1 g-3'>
                         {tertiaryArray.map((item, index) => {
                             return (
@@ -84,7 +84,7 @@ export default function Sidepanel(props) {
     }
 
     return (
-        <div id='ContrastMenu' class="sidepanel collapse">
+        <div id='ContrastMenu' className="sidepanel collapse border-start bg-body">
             <div class="d-flex align-items-center justify-content-between px-3 pt-3 pb-2 border-bottom">
                 <Header type="h4 mb-0" name="Contrast Pairing Options" />
                 <button class="btn btn-sm btn-new" onClick={() => CloseAccessibilityMenu()}><i class="fa-solid fa-xmark"></i></button>
