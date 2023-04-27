@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='container py-5'>
-        <Header type='h1' name="Overview" />
+        <Header type='h1' name="MDS Accessibility Checker" />
         <p>Using this tool you can check which of the defined colors can be paired with other colors from the Mitratech Color System.</p>
         <p className='fw-bold'>Click on the icon next to the color name and it will open up a sidepanel with all the constrast safe colors compliant with WCAG 2.1</p>
 

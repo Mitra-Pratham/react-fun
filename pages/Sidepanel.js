@@ -29,7 +29,7 @@ export default function Sidepanel(props) {
                                     {item.colors.map((el, index) => {
                                         if ((ccc.isLevelAA(selectedItem.hex, el.hex, 14)) || (ccc.isLevelAA(el.hex, selectedItem.hex, 14))) {
                                             return (
-                                                <Card key={index} colorName={el.name} hex={el.hex} rgb={el.rgb} />
+                                                <Card key={index} colorName={el.name} hex={el.hex} rgb={el.rgb} accessible={true} selectedHex={selectedItem.hex} />
                                             )
                                         }
                                     }
@@ -49,7 +49,7 @@ export default function Sidepanel(props) {
                                     {item.colors.map((el, index) => {
                                         if ((ccc.isLevelAA(selectedItem.hex, el.hex, 14)) || (ccc.isLevelAA(el.hex, selectedItem.hex, 14))) {
                                             return (
-                                                <Card key={index} colorName={el.name} hex={el.hex} rgb={el.rgb} />
+                                                <Card key={index} colorName={el.name} hex={el.hex} rgb={el.rgb} accessible={true} selectedHex={selectedItem.hex} />
                                             )
                                         }
                                     }
@@ -69,7 +69,7 @@ export default function Sidepanel(props) {
                                     {item.colors.map((el, index) => {
                                         if ((ccc.isLevelAA(selectedItem.hex, el.hex, 14)) || (ccc.isLevelAA(el.hex, selectedItem.hex, 14))) {
                                             return (
-                                                <Card key={index} colorName={el.name} hex={el.hex} rgb={el.rgb} />
+                                                <Card key={index} colorName={el.name} hex={el.hex} rgb={el.rgb} accessible={true} selectedHex={selectedItem.hex} />
                                             )
                                         }
                                     }
