@@ -108,7 +108,7 @@ const primaryArray = [
                 rgb: 'RGB(0, 0, 0)'
             },
             {
-                name: 'Cool Gray 200',
+                name: 'White',
                 hex: '#FFFFFF',
                 rgb: 'RGB(255, 255, 255)'
             },
